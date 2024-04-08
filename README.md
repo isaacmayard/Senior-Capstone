@@ -11,3 +11,5 @@ Mar 23: Fixed DHCP issue by converting RoaS to layer 3 switches, then adding /30
 Goal 4: Each network now has EIGRP implemented as it's layer 3 routing protocol up until the boundary router. All hosts within each internal network can ping each other, their server and their gateway (this went surprisingly seamlessly, which was refreshing! Big thank you to the Cisco online documentation). COMPLETED. 
 
 Goal 5: Connect multiple different L3 autonomous systems together via routing protocols PENDING 20 April
+
+Project Poster: Create a Powerpoint presentation with audio explanations for the entire project, it's conception, and applicability. (Due date 22 April)
