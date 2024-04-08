@@ -8,6 +8,6 @@ Mar 8 : Layer 2 setup on all 4 networks. Engineering and R&D have RoaS connectiv
 
 Mar 23: Fixed DHCP issue by converting RoaS to layer 3 switches, then adding /30 networks between the switches and the routers, then finally ip-helper addresses to the SVIs. Goal 3: Host DHCP server that will serve IP addresses to endpoints COMPLETED.
 
-Goal 4: Implement EIGRP for layer 3 routing protocol PENDING 8 April 
+Goal 4: Each network now has EIGRP implemented as it's layer 3 routing protocol up until the boundary router. All hosts within each internal network can ping each other, their server and their gateway. COMPLETED. 
 
 Goal 5: Connect multiple different L3 autonomous systems together via routing protocols PENDING 20 April
